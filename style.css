@@ -257,6 +257,8 @@ section {
 
 #about {
     position: relative;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
 }
 
 .about-containers {

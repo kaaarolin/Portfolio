@@ -349,16 +349,18 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
     padding-top: 8rem;
+    min-height: 100vh; /* ändrat från height: 70vh */
   }
-
-.contact-container {
-    height: 100vh;
+  
+  .contact-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-}
+    flex-wrap: wrap; /* om du vill göra det responsivt */
+    gap: 2rem;
+  }
+  
 
 .contact-left {
     display: flex;

@@ -261,7 +261,7 @@ section {
 
 .about-containers {
     gap: 2rem;
-    margin-bottom: 10rem;
+    margin-bottom: 12rem;
     margin-top: 10rem;
 } 
   
@@ -308,7 +308,7 @@ section {
 
 #experience {
     position: relative;
-    margin-top: 8rem; 
+    margin-top: 10rem; 
     margin-bottom: 18rem;
 }
 

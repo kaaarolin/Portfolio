@@ -2,6 +2,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -422,6 +424,7 @@ article .icon {
 footer {
     height: 26vh;
     margin: 0 1rem;
+    margin-top: 8rem;
 }
 
 footer p {

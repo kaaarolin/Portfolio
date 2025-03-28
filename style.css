@@ -164,9 +164,8 @@ section {
 #profile {
     display: flex;
     justify-content: center;
-    gap: 0rem;
+    gap: -1rem;
     /* height: 80vh; */
-    margin-left: 8rem;
 
 }
 

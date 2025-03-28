@@ -369,6 +369,7 @@ article .icon {
     justify-content: space-evenly;
     flex-wrap: wrap; /* om du vill göra det responsivt */
     gap: 2rem;
+    margin-top: 2rem;
   }
   
 

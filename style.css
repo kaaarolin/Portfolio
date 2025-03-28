@@ -166,7 +166,7 @@ section {
     justify-content: center;
     gap: 0.5rem;
     /* height: 80vh; */
-    padding: 3rem 0;
+    padding: 2rem 0;
     margin-left: 1rem;
     margin-right: auto;
 }
@@ -183,7 +183,7 @@ section {
 
 .section__text {
     align-self: center;
-    text-align: left;
+    text-align: center;
     margin-top: 1rem;
 }
 

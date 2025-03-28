@@ -262,9 +262,9 @@ section {
 }
 
 .about-containers {
+    display: flex;
     gap: 2rem;
-    margin-bottom: 8rem;
-    margin-top: 6rem;
+    margin-top: 8rem;
 } 
   
 .about-details-container {

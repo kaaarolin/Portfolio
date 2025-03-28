@@ -166,7 +166,7 @@ section {
     justify-content: center;
     gap: -1rem;
     /* height: 80vh; */
-    transform: translateX(-1rem);
+    transform: translateX(4rem);
 
 }
 

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Welcome to my portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <!-- <li><a href="#projects">Projects</a></li> -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Welcome to my Portfolio</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <!-- <li><a href="#projects" onclick="toggleMenu()">Projects</a></li> -->
+          <li><a href="#experience" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Karolin profilepic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hi, I'm</p>
+            <h1 class="title"> <span class="pink-text"> Karolin Nguyen </span></h1>
+            <p class="section__text__p2">.NET Cloud Developer Student</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Karolin Nguyen_CV.pdf')"> Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img 
+                src="./assets/linkedin.png" 
+                alt="Karolins linkedin"
+                class="icon" 
+                onclick="location.href='https://www.linkedin.com/in/karolin-nguyen-bb5021318'" 
+                />
+                <img 
+                src="./assets/github.png" 
+                alt="Karolins github"
+                class="icon" 
+                onclick="location.href='https://github.com/kaaarolin'" 
+                />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/profilepic2.jpeg" alt="about picture" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+              <div class="about-containers">
+                <div class="details-container">
+                  <img src="./assets/experience.png" alt="experience icon" class="icon"/>
+                  <h3>Experience</h3>
+                  <p>4+ years of Pharmacy at Apoteket (2020 - ) </p>
+                  <p> 1 year at Mcdonalds (2015 - 2016)</p> 
+                </div>
+                <div class="details-container">
+                  <img src="./assets/education.png" alt="education icon" class="icon"/>
+                  <h3> Education</h3>
+                  <p> IT-Högskolan .NET Cloud (2024 - ) </p>
+                  <p>B.Sc. Bachelors Degree Pharmacy</p>
+                </div>
+              </div>
+              <div class="text-container">
+                <p> this is about me and lalalalala</p>
+              </div>
+            </div>
+        </div>
+        
+    </section>
+    <section id="experience">
+      <p class="section__text__p1"> Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="assets/checkmark.png" alt="experience icon" class="icon"/>
+                <div>
+                  <h3> HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="experience icon" class="icon"/>
+                <div>
+                  <h3> CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="experience icon" class="icon"/>
+                <div>
+                  <h3> JavaScript</h3>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="experience icon" class="icon"/>
+                <div>
+                  <h3> Blazor</h3>
+                </div>
+              </article>
+              
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="assets/checkmark.png" alt="experience icon" class="icon"/>
+                <div>
+                  <h3> C#</h3>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="experience icon" class="icon"/>
+                <div>
+                  <h3> SQL</h3>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="experience icon" class="icon"/>
+                <div>
+                  <h3> MongoDB</h3>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="experience icon" class="icon"/>
+                <div>
+                  <h3> Python</h3>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="experience icon" class="icon"/>
+                <div>
+                  <h3> Azure</h3>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="experience icon" class="icon"/>
+                <div>
+                  <h3> Azure DevOps</h3>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="experience icon" class="icon"/>
+                <div>
+                  <h3> CI/CD</h3>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="experience icon" class="icon"/>
+                <div>
+                  <h3> Git</h3>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="experience icon" class="icon"/>
+                <div>
+                  <h3> NodeJS</h3>
+                </div>
+              </article>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

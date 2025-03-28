@@ -350,6 +350,7 @@ article .icon {
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    padding-top: 8rem;
   }
 
 .contact-container {
@@ -357,7 +358,6 @@ article .icon {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-top: 4rem;
 }
 
 .contact-left {

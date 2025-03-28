@@ -168,7 +168,6 @@ section {
 
 }
 
-
 .section__pic-container {
     display: flex;
     height: 300px;
@@ -181,7 +180,7 @@ section {
 .section__text {
     align-self: center;
     text-align: center;
-    margin-top: -7rem;
+    margin-top: -5rem;
 
 }
 

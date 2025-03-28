@@ -311,7 +311,7 @@ section {
 #experience {
     position: relative;
     margin-top: 10rem; 
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
 }
 
 .experience-sub-title {
@@ -354,7 +354,7 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-top: 20rem;
+    padding-top: 6rem;
     min-height: 100vh; 
     margin-bottom: 8rem;
   }

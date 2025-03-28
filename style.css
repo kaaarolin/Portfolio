@@ -174,7 +174,7 @@ section {
     display: flex;
     height: 300px;
     width: 400px;
-    padding-top: 2rem;
+    padding-top: 4rem;
   }
   
 
@@ -182,7 +182,8 @@ section {
 .section__text {
     align-self: center;
     text-align: center;
-    margin-top: 0.5rem;
+    margin-top: 2rem;
+    margin-left: -0.5rem;
 }
 
 .section__text p {

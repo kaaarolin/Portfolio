@@ -355,11 +355,10 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-top: 6rem;
     min-height: 100vh; 
     margin-bottom: 8rem;
     padding-top: 10rem;
-    margin-top: 10rem;
+    margin-top: 8rem;
   }
   
   .contact-container {

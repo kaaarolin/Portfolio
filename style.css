@@ -264,7 +264,8 @@ section {
 .about-containers {
     display: flex;
     gap: 2rem;
-    margin-top: 8rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 } 
   
 .about-details-container {

@@ -260,13 +260,14 @@ section {
 .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
-    margin-top: 2rem;
-}
+    margin-top: 10rem;
+} 
+  
 
 .about-details-container {
     justify-content: center;
     flex-direction: column;
-}
+} 
 
 .about-containers, .about-details-container {
     display: flex;
@@ -275,7 +276,6 @@ section {
 
 .about-pic {
     border-radius: 2rem;
-    /* margin-top: -2rem; */
 } 
 
 .details-container {
@@ -291,17 +291,22 @@ section {
 .section-container {
     height: 80%;
     gap: 4rem;
+    align-items: center;
+    display: flex;
 } 
 
 
 .section__pic-container {
-    margin: auto 0;
-}
+    margin: auto
+} 
+
+
 
 /* Experience section */
 
 #experience {
     position: relative;
+    margin-top: 8rem; 
 }
 
 .experience-sub-title {

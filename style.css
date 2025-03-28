@@ -353,7 +353,8 @@ article .icon {
     justify-content: center;
     flex-direction: column;
     padding-top: 8rem;
-    min-height: 100vh; /* ändrat från height: 70vh */
+    min-height: 100vh; 
+    margin-bottom: 8rem;
   }
   
   .contact-container {

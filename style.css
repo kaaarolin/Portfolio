@@ -166,7 +166,8 @@ section {
     justify-content: center;
     gap: -1rem;
     /* height: 80vh; */
-    transform: translateX(5rem);
+    padding-left: 4rem; /* Justera efter behov */
+    justify-content: flex-start;
 
 }
 
@@ -184,7 +185,7 @@ section {
     align-self: center;
     text-align: center;
     margin-top: -7rem;
-    transform: translateX(5rem);
+
 }
 
 .section__text p {

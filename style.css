@@ -161,18 +161,17 @@ section {
 
 #profile {
     display: flex;
-    justify-content: space-evenly;
-    gap: 6rem;
-    height: 50vh;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
 }
 
 
 .section__pic-container {
     display: flex;
     height: 300px;
-    width: 300px;
-    margin-top: 3rem; 
-    transform: translateY(80px);
+    width: 400px;
+    padding-top: 8rem;
   }
   
 
@@ -334,10 +333,82 @@ article {
 }
 
 
-article.icon {
+article .icon {
     cursor: default;
 }
 
 /* Projects section */
 
 /*Contact section */
+
+.contact-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    border: lightpink 0.1rem solid;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 600;
+    color: grey;
+    border-radius: 50px;
+}
+
+.contact-left textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus {
+    border: lightpink 0.1rem solid;
+}
+
+.contact-inputs::placeholder{
+    color: grey;
+}
+
+.contact-left button {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    color: black;
+    gap: 10px;
+    border: black solid;
+    border-radius: 50px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; /* smidig övergång */
+  }
+  
+  .contact-left button:hover {
+    background: lightpink;
+    color: white;
+  }
+  
+  .contact-left button img{
+    height: 15px;
+  }
+
+/*Footer section */
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
+}

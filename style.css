@@ -274,6 +274,7 @@ section {
 
 .about-containers, .about-details-container {
     display: flex;
+    margin-top: 6rem;
 }
 
 

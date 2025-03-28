@@ -264,7 +264,7 @@ section {
 .about-containers {
     display: flex;
     gap: 2rem;
-    margin-top: 6rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 } 
   
@@ -288,7 +288,6 @@ section {
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
-    max-width: 350px;
     border-color: lightpink;
 }
 

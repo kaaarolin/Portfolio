@@ -263,7 +263,8 @@ section {
 
 .about-containers {
     display: flex;
-    margin-top: 4rem;
+    gap: 2rem;
+    margin-top: 6rem;
     margin-bottom: 2rem;
 } 
   

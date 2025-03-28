@@ -288,6 +288,7 @@ section {
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
+    max-width: 350px;
     border-color: lightpink;
 }
 

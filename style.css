@@ -464,3 +464,8 @@ footer {
 footer p {
     text-align: center;
 }
+
+.MS_icon {
+    width: 50px;
+    height: auto;
+}

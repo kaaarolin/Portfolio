@@ -367,6 +367,12 @@ article .icon {
     height: 90%;
 }
 
+.project-img-terraform {
+    border-radius: 2rem;
+    width: 100%;
+    height: auto;
+}
+
 .project-title {
     text-align: center;
     margin: 1rem;
